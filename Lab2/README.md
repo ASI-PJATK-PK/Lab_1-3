@@ -64,22 +64,18 @@
 - Użycie commita z odpowiednimi opisami zmian.
 - Użycie branchy i pull requestów (opcjonalnie, jeśli projekt to wymaga).
 
-### Suma punktów: 20
+### Suma punktów: 10
 
 ---
 
 ### Podsumowanie zadań
 
-- **Google Sheets i GitHub Secrets** (3 punkty): Konfiguracja dostępu do danych w Google Sheets za pomocą GitHub Actions.
-- **Skrypt czyszczący i standaryzujący dane** (10 punktów): Opracowanie skryptu do przetwarzania i standaryzacji danych.
-- **Generowanie raportu z GitHub Actions** (2 punkty): Raport dotyczący przetworzonych danych na koniec procesu.
-- **Logger** (3 punkty): Użycie loggera do śledzenia działań w skrypcie.
-- **Poprawność użycia Gita** (2 punkty): Praca z GitHub zgodnie z dobrymi praktykami (commity, branchy, pull requesty).
+- **Google Sheets i GitHub Secrets** (1,5 punkty): Konfiguracja dostępu do danych w Google Sheets za pomocą GitHub Actions.
+- **Skrypt czyszczący i standaryzujący dane** (5 punktów): Opracowanie skryptu do przetwarzania i standaryzacji danych.
+- **Generowanie raportu z GitHub Actions** (1 punkty): Raport dotyczący przetworzonych danych na koniec procesu.
+- **Logger** (1,5 punkty): Użycie loggera do śledzenia działań w skrypcie.
+- **Poprawność użycia Gita** (1 punkty): Praca z GitHub zgodnie z dobrymi praktykami (commity, branchy, pull requesty).
 
 ###
-**Extra 5 punktów:**
-- Jeżeli ktoś użyje w organizacji self-hosted runnera.
-###
-skrypt jest uruchamiany w sposób:
 
 `python3 generator_danych.py -s XXXXX`
