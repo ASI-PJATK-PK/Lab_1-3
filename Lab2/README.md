@@ -5,7 +5,7 @@
 
 #### 0. Wasza aplikacja ma automatycznie pobierać i odpalenie skrypt z repozytorium Lab2---Obr-bka-danych przy każdym odpaleniu Waszego Github Action.
 
-#### 1. Stworzenie Google Sheets i dodanie dostępów jako secrety z poziomu GitHub Actions - **3 punkty**
+#### 1. Stworzenie Google Sheets i dodanie dostępów jako secrety z poziomu GitHub Actions - **1,5 punkty**
 
 - Student powinien:
   - Stworzyć arkusz Google Sheets, w którym umieści wygenerowane dane w sposób automatyczny.
@@ -17,7 +17,7 @@
 - Konfiguracja API Google i dodanie danych uwierzytelniających do GitHub Secrets.
 - Użycie GitHub Actions do automatycznego pobrania danych z arkusza.
 
-#### 2. Napisanie skryptu czyszczącego dane (usuwanie lub uzupełnianie braków) i standaryzującego dane - **10 punktów**
+#### 2. Napisanie skryptu czyszczącego dane (usuwanie lub uzupełnianie braków) i standaryzującego dane - **5 punktów**
 
 - Student musi napisać skrypt w Pythonie, który:
   - Odczyta dane z Google Sheets (lub z pliku CSV, jeśli wcześniej pobierze dane).
@@ -32,7 +32,7 @@
 - Czyszczenie danych: usuwanie braków lub uzupełnianie ich, gdy to możliwe.
 - Standaryzacja danych.
 
-#### 3. Generowanie raportu z GitHub Actions - **2 punkty**
+#### 3. Generowanie raportu z GitHub Actions - **1 punkty**
 
 - Po wykonaniu skryptu czyszczącego i standaryzującego dane, GitHub Actions powinien wygenerować raport, który zawiera:
   - Procent danych, które zostały zmienione w wyniku uzupełniania braków lub standaryzacji.
@@ -43,7 +43,7 @@
 - Na koniec działania skryptu powinien wygenerować raport i zapisać go jako plik tekstowy (np. `report.txt`).
 - GitHub Actions powinien wyświetlić zawartość raportu po zakończeniu pracy.
 
-#### 4. Użycie loggera w skrypcie - **3 punkty**
+#### 4. Użycie loggera w skrypcie - **1,5 punkty**
 
 - Skrypt musi zawierać **logger** do śledzenia działań związanych z przetwarzaniem danych:
   - Każdy etap działania skryptu powinien być odpowiednio logowany (np. rozpoczęcie i zakończenie czyszczenia danych, liczba usuniętych wierszy, procent uzupełnionych danych).
@@ -53,7 +53,7 @@
 - Skonfiguruj loggera (np. przy użyciu modułu `logging` w Pythonie).
 - Zaloguj kluczowe operacje, takie jak odczytanie danych, rozpoczęcie i zakończenie przetwarzania danych, zmiany dokonane w danych itp.
 
-#### 5. Poprawność użycia Gita - **2 punkty**
+#### 5. Poprawność użycia Gita - **1 punkty**
 
 - Student powinien:
   - Wprowadzać odpowiednio zatytułowane **commity** w repozytorium GitHub (opisujące zmiany w kodzie).
