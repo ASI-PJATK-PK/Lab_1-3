@@ -1,10 +1,10 @@
 # .github/workflows/ci.yml
-# Joby lecą WYŁĄCZNIE na lokalnym self-hosted runnerze (serwer ihub).
-# Wymaga runnera w org ASI-PJATK-PK z labelkami: self-hosted, linux, ihub
+# Joby lecą WYŁĄCZNIE na self-hosted runnerze ihub, W OSOBNYM KONTENERZE Dockera.
+# Kontener wstaje na czas joba i jest usuwany po zakończeniu — nie używaj systemowego Pythona hosta.
+# Zalecany obraz: python:3.11-slim-bookworm (jest też 3.12-slim-bookworm).
 
 name: CI/CD Pipeline for ML Model Training
 
-# Wykonuj akcje przy każdym pushu do gałęzi main
 on:
   push:
     branches:
@@ -15,10 +15,19 @@ jobs:
     runs-on: [self-hosted, linux, ihub]
     timeout-minutes: 30
 
+    # Izolowane środowisko — tu student konfiguruje Pythona/venv/pip bez PEP 668 z hosta
+    container:
+      image: python:3.11-slim-bookworm
+
     steps:
       # Krok 1: Checkout repozytorium
 
-      # Krok 2: Zainstaluj Python i zależności
+      # Krok 2: Zainstaluj zależności (w kontenerze możesz użyć venv), np.:
+      #   - run: |
+      #       python -m venv .venv
+      #       . .venv/bin/activate
+      #       pip install -U pip
+      #       pip install -r requirements.txt
 
       # Krok 3: Uruchom trenowanie modelu
 
