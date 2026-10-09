@@ -15,7 +15,9 @@ jobs:
     runs-on: [self-hosted, linux, ihub]
     timeout-minutes: 30
 
-    # Izolowane środowisko — tu student konfiguruje Pythona/venv/pip bez PEP 668 z hosta
+    # Izolowane środowisko — tu student konfiguruje Pythona/venv/pip bez PEP 668 z hosta.
+    # Wersję Pythona zmieniasz sam: podmień tag obrazu poniżej (np. python:3.12-slim-bookworm).
+    # Na ihub są już 3.11 i 3.12; inny tag z Docker Huba też zadziała (pierwszy pull może potrwać dłużej).
     container:
       image: python:3.11-slim-bookworm
 
