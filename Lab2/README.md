@@ -3,7 +3,7 @@
 ### Wymogi do zadania - nie tworzycie nowego repo tylko zmieniacie w nazwe z Lab1 na Lab2 a treść z zadania jeden przenosie na brancha o nazwie zadania!
 
 
-#### 0. Wasza aplikacja ma automatycznie pobierać i odpalenie skrypt z repozytorium Lab2---Obr-bka-danych przy każdym odpaleniu Waszego Github Action.
+#### 0. Wasza aplikacja ma automatycznie pobierać i odpalenie skrypt z repozytorium [ASI-PJATK-PK/Lab_1-3](https://github.com/ASI-PJATK-PK/Lab_1-3) (katalog `Lab2`) przy każdym odpaleniu Waszego Github Action.
 
 #### 1. Stworzenie Google Sheets i dodanie dostępów jako secrety z poziomu GitHub Actions - **1,5 punkty**
 

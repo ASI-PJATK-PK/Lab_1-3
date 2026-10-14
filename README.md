@@ -1,11 +1,11 @@
 # Lab_1-3
 
-Zbiorcze repozytorium treści zadań laboratoryjnych ASI (Lab1–Lab3) z organizacji [PJATK-ASI-2024](https://github.com/PJATK-ASI-2024).
+Zbiorcze repozytorium treści zadań laboratoryjnych ASI (Lab1–Lab3) w organizacji [ASI-PJATK-PK](https://github.com/ASI-PJATK-PK).
 
 ## Zawartość
 
-| Katalog | Źródło |
-|---------|--------|
-| `Lab1` | https://github.com/PJATK-ASI-2024/Lab1 |
-| `Lab2` | https://github.com/PJATK-ASI-2024/Lab2---Obr-bka-danych |
-| `Lab3` | https://github.com/PJATK-ASI-2024/Lab3-Analizator_wynikow |
+| Katalog | Ścieżka w tym repo |
+|---------|-------------------|
+| `Lab1` | https://github.com/ASI-PJATK-PK/Lab_1-3/tree/main/Lab1 |
+| `Lab2` | https://github.com/ASI-PJATK-PK/Lab_1-3/tree/main/Lab2 |
+| `Lab3` | https://github.com/ASI-PJATK-PK/Lab_1-3/tree/main/Lab3 |
