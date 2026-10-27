@@ -1,9 +1,15 @@
-# Lab2---Obr-bka-danych
+# Lab2 — Obróbka danych
 
-### Wymogi do zadania - nie tworzycie nowego repo tylko zmieniacie w nazwe z Lab1 na Lab2 a treść z zadania jeden przenosie na brancha o nazwie zadania!
+### Wymogi do oddania
 
+- Nie tworzycie nowego repozytorium — zmieniacie nazwę z Lab1 na Lab2, zachowując w nazwie **numer s** studenta (lub studentów), np. `Lab-2_sXXXXX`.
+- Treść rozwiązania Lab1 przenosicie na branch o nazwie zadania (np. `lab1`).
+- Rozwiązanie Lab2 musi być na **dedykowanym branchu** (np. `lab2`).
+- **Oddanie** odbywa się wyłącznie przez Microsoft Teams: przesłanie **linku do brancha** z rozwiązaniem Lab2 (jako **link**, nie jako plik tekstowy).
+- **Każda poprawa** wymaga przesłania **nowego linku** do brancha z poprawionym rozwiązaniem.
+- **Commity** przesłane po ostatecznym terminie oddania będą traktowane jako **oszustwo**.
 
-#### 0. Wasza aplikacja ma automatycznie pobierać i odpalenie skrypt z repozytorium [ASI-PJATK-PK/Lab_1-3](https://github.com/ASI-PJATK-PK/Lab_1-3) (katalog `Lab2`) przy każdym odpaleniu Waszego Github Action.
+#### 0. Wasza aplikacja ma automatycznie pobierać i odpalać skrypt z repozytorium [ASI-PJATK-PK/Lab_1-3](https://github.com/ASI-PJATK-PK/Lab_1-3) (katalog `Lab2`) przy każdym odpaleniu Waszego Github Action.
 
 #### 1. Stworzenie Google Sheets i dodanie dostępów jako secrety z poziomu GitHub Actions - **1,5 punkty**
 
@@ -57,12 +63,14 @@
 
 - Student powinien:
   - Wprowadzać odpowiednio zatytułowane **commity** w repozytorium GitHub (opisujące zmiany w kodzie).
-  - Używać **branchy** do wprowadzania większych zmian i zgłaszać pull requesty na główną gałąź (jeśli wymagane).
+  - Używać **dedykowanego brancha** dla Lab2 (oraz osobnych branchy dla poprzednich zadań) i zgłaszać pull requesty na główną gałąź (jeśli wymagane).
   - Wszystkie commity muszą być dobrze opisane i reprezentować odpowiednie etapy pracy (np. "Dodanie skryptu czyszczącego dane", "Konfiguracja loggera", "Dodanie raportu z GitHub Actions").
+  - Oddać zadanie w Teamsach jako **link do brancha** z rozwiązaniem; po poprawkach — nowy link. Commity po ostatecznym terminie = oszustwo.
 
 **Kroki**:
-- Użycie commita z odpowiednimi opisami zmian.
-- Użycie branchy i pull requestów (opcjonalnie, jeśli projekt to wymaga).
+- Użycie commitów z odpowiednimi opisami zmian.
+- Użycie dedykowanych branchy per zadanie i pull requestów (opcjonalnie, jeśli projekt to wymaga).
+- Przesłanie linku do brancha przez Teams (nie plik tekstowy).
 
 ### Suma punktów: 10
 
@@ -74,7 +82,7 @@
 - **Skrypt czyszczący i standaryzujący dane** (5 punktów): Opracowanie skryptu do przetwarzania i standaryzacji danych.
 - **Generowanie raportu z GitHub Actions** (1 punkty): Raport dotyczący przetworzonych danych na koniec procesu.
 - **Logger** (1,5 punkty): Użycie loggera do śledzenia działań w skrypcie.
-- **Poprawność użycia Gita** (1 punkty): Praca z GitHub zgodnie z dobrymi praktykami (commity, branchy, pull requesty).
+- **Poprawność użycia Gita** (1 punkty): Praca z GitHub zgodnie z dobrymi praktykami (commity, branchy, pull requesty) oraz oddanie linkiem do brancha przez Teams.
 
 ###
 
